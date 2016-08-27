@@ -1,0 +1,146 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HookService - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP25E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/HookService.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Code\InstallService\HookService\HookService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP25E.tmp" 
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP25F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/HookService.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Code\InstallService\HookService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP25F.tmp" 
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP260.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/ntservice.pdb" /machine:I386 /out:"Release/ntservice.exe" 
+.\Release\HookService.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP260.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+HookService.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ntservice.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: HookService - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP262.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/HookService.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\Code\InstallService\HookService\HookService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP262.tmp" 
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP263.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/HookService.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\Code\InstallService\HookService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP263.tmp" 
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP264.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ntservice.pdb" /debug /machine:I386 /out:"Debug/ntservice.exe" /pdbtype:sept 
+.\Debug\HookService.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP264.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+HookService.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ntservice.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: InstallService - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP266.tmp" with contents
+[
+/nologo /MLd /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/InstallService.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Code\InstallService\InstallService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP266.tmp" 
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP267.tmp" with contents
+[
+/nologo /MLd /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/InstallService.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Code\InstallService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP267.tmp" 
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP268.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Mpr.lib /nologo /subsystem:console /incremental:no /pdb:"Release/InstallService.pdb" /machine:I386 /out:"Release/InstallService.exe" 
+.\Release\InstallService.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP268.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+InstallService.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+InstallService.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: InstallService - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP26A.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/InstallService.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\Code\InstallService\InstallService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP26A.tmp" 
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP26B.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/InstallService.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\Code\InstallService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP26B.tmp" 
+Creating temporary file "C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP26C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Mpr.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/InstallService.pdb" /debug /machine:I386 /out:"Debug/InstallService.exe" /pdbtype:sept 
+.\Debug\InstallService.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\NAVEEN~1.SHA\LOCALS~1\Temp\RSP26C.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+InstallService.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/InstallService.bsc"  .\Debug\StdAfx.sbr .\Debug\InstallService.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+InstallService.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

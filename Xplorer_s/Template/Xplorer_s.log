@@ -1,0 +1,44 @@
+﻿Build started 7/30/2016 4:38:47 PM.
+     1>Project "D:\personal\Code\Xplorer_V3.1\Xplorer_s\Xplorer_s.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Template\\" /Fd"Template\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt progress.cpp StdAfx.cpp TreeView.cpp Xplorer_s.cpp Xplorer_sSock.cpp
+         progress.cpp
+         StdAfx.cpp
+         TreeView.cpp
+         Xplorer_s.cpp
+         Xplorer_sSock.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Template\Xplorer_s.res" Xplorer_s.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\personal\Code\Xplorer_V3.1\Template\Xplorer_s.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\personal\Code\Xplorer_V3.1\Template\Xplorer_s.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\personal\Code\Xplorer_V3.1\Template\Xplorer_s.lib" /MACHINE:X86 /SAFESEH Template\Xplorer_s.res
+         Template\progress.obj
+         Template\StdAfx.obj
+         Template\TreeView.obj
+         Template\Xplorer_s.obj
+         Template\Xplorer_sSock.obj
+     1>TreeView.obj : error LNK2019: unresolved external symbol _getpeername@12 referenced in function "short __cdecl AddRootNode(struct xinfo *,struct HWND__ *)" (?AddRootNode@@YAFPAUxinfo@@PAUHWND__@@@Z)
+     1>TreeView.obj : error LNK2019: unresolved external symbol _inet_ntoa@4 referenced in function "short __cdecl AddRootNode(struct xinfo *,struct HWND__ *)" (?AddRootNode@@YAFPAUxinfo@@PAUHWND__@@@Z)
+     1>Xplorer_sSock.obj : error LNK2001: unresolved external symbol _inet_ntoa@4
+     1>TreeView.obj : error LNK2019: unresolved external symbol _send@16 referenced in function "short __cdecl AddChildNode(struct xinfo *)" (?AddChildNode@@YAFPAUxinfo@@@Z)
+     1>Xplorer_s.obj : error LNK2001: unresolved external symbol _send@16
+     1>Xplorer_sSock.obj : error LNK2001: unresolved external symbol _send@16
+     1>TreeView.obj : error LNK2019: unresolved external symbol _gethostbyaddr@12 referenced in function "short __cdecl AddRootNode(struct xinfo *,struct HWND__ *)" (?AddRootNode@@YAFPAUxinfo@@PAUHWND__@@@Z)
+     1>Xplorer_s.obj : error LNK2019: unresolved external symbol __imp__InitCommonControls@0 referenced in function "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)
+     1>Xplorer_s.obj : error LNK2019: unresolved external symbol __imp__ImageList_Create@20 referenced in function "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)
+     1>Xplorer_s.obj : error LNK2019: unresolved external symbol __imp__ImageList_Add@12 referenced in function "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _accept@12 referenced in function "void __cdecl AcceptThread(void *)" (?AcceptThread@@YAXPAX@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _bind@12 referenced in function "short __cdecl StartServer(unsigned int *,int)" (?StartServer@@YAFPAIH@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _closesocket@4 referenced in function "short __cdecl StartServer(unsigned int *,int)" (?StartServer@@YAFPAIH@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _htons@4 referenced in function "short __cdecl StartServer(unsigned int *,int)" (?StartServer@@YAFPAIH@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _listen@8 referenced in function "short __cdecl StartServer(unsigned int *,int)" (?StartServer@@YAFPAIH@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _recv@16 referenced in function "unsigned int __stdcall RecvThread(void *)" (?RecvThread@@YGIPAX@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _socket@12 referenced in function "short __cdecl StartServer(unsigned int *,int)" (?StartServer@@YAFPAIH@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _gethostbyname@4 referenced in function "short __cdecl StartServer(unsigned int *,int)" (?StartServer@@YAFPAIH@Z)
+     1>Xplorer_sSock.obj : error LNK2019: unresolved external symbol _WSAStartup@8 referenced in function "int __cdecl InitSockLib(void)" (?InitSockLib@@YAHXZ)
+     1>D:\personal\Code\Xplorer_V3.1\Template\Xplorer_s.exe : fatal error LNK1120: 16 unresolved externals
+     1>Done Building Project "D:\personal\Code\Xplorer_V3.1\Xplorer_s\Xplorer_s.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.24

@@ -1,0 +1,419 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HookService - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/HookService.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\HookService\HookService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP23.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/HookService.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\HookService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP24.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP25.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/ntservice.pdb" /machine:I386 /out:"../Release/ntservice.exe" 
+.\Release\HookService.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP25.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+HookService.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ntservice.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: HookService - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP27.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/HookService.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\HookService\HookService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP27.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/HookService.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\HookService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP28.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ntservice.pdb" /debug /machine:I386 /out:"../Debug/ntservice.exe" /pdbtype:sept 
+.\Debug\HookService.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP29.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+HookService.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ntservice.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: InstallService - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP2B.tmp" with contents
+[
+/nologo /MLd /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/InstallService.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\InstallService\InstallService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP2B.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP2C.tmp" with contents
+[
+/nologo /MLd /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/InstallService.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\InstallService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP2C.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP2D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Mpr.lib /nologo /subsystem:console /incremental:no /pdb:"Release/InstallService.pdb" /machine:I386 /out:"../Release/InstallService.exe" 
+.\Release\InstallService.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP2D.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+InstallService.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+InstallService.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: InstallService - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP2F.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/InstallService.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\InstallService\InstallService.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP2F.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP30.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/InstallService.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\InstallService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP30.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP31.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Mpr.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/InstallService.pdb" /debug /machine:I386 /out:"../Debug/InstallService.exe" /pdbtype:sept 
+.\Debug\InstallService.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP31.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+InstallService.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/InstallService.bsc"  .\Debug\StdAfx.sbr .\Debug\InstallService.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+InstallService.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Xplorer_c - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Xplorer_c.res" /d "NDEBUG" "D:\personal\Code\Xplorer_V3.0\Xplorer_c\Xplorer_c.rc"" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP33.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Xplorer_c.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\Xplorer_c\CatchBitmap.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_c\Xplorer_c.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_c\Xplorer_cSock.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP33.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP34.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Xplorer_c.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\Xplorer_c\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP34.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP35.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Xplorer_c.pdb" /machine:I386 /out:"..\Release/Xplorer_c.exe" 
+.\Release\CatchBitmap.obj
+.\Release\StdAfx.obj
+.\Release\Xplorer_c.obj
+.\Release\Xplorer_cSock.obj
+.\Release\Xplorer_c.res
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP35.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CatchBitmap.cpp
+Xplorer_c.cpp
+Xplorer_cSock.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP37.bat" with contents
+[
+@echo off
+copy Xplorer_c.ini ..\Release
+]
+Creating command line "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP37.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Xplorer_c.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Xplorer_c - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Xplorer_c.res" /d "_DEBUG" "D:\personal\Code\Xplorer_V3.0\Xplorer_c\Xplorer_c.rc"" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP38.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Xplorer_c.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\Xplorer_c\CatchBitmap.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_c\Xplorer_c.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_c\Xplorer_cSock.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP38.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP39.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Xplorer_c.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\Xplorer_c\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP39.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Xplorer_c.pdb" /debug /machine:I386 /out:"..\Debug/Xplorer_c.exe" /pdbtype:sept 
+.\Debug\CatchBitmap.obj
+.\Debug\StdAfx.obj
+.\Debug\Xplorer_c.obj
+.\Debug\Xplorer_cSock.obj
+.\Debug\Xplorer_c.res
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CatchBitmap.cpp
+Xplorer_c.cpp
+Xplorer_cSock.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Xplorer_c.bsc"  .\Debug\StdAfx.sbr .\Debug\CatchBitmap.sbr .\Debug\Xplorer_c.sbr .\Debug\Xplorer_cSock.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3C.bat" with contents
+[
+@echo off
+copy Xplorer_c.ini ..\Debug
+]
+Creating command line "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3C.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Xplorer_c.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Xplorer_s - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Xplorer_s.res" /d "NDEBUG" "D:\personal\Code\Xplorer_V3.0\Xplorer_s\Xplorer_s.rc"" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fr"Release/" /Fp"Release/Xplorer_s.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\progress.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\TreeView.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\Xplorer_s.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\Xplorer_sSock.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3D.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fr"Release/" /Fp"Release/Xplorer_s.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3E.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib shell32.lib wsock32.lib ole32.lib comctl32.lib /nologo /subsystem:windows /pdb:none /machine:I386 /out:"..\Release/Xplorer_s.exe" 
+.\Release\progress.obj
+.\Release\StdAfx.obj
+.\Release\TreeView.obj
+.\Release\Xplorer_s.obj
+.\Release\Xplorer_sSock.obj
+.\Release\Xplorer_s.res
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP3F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+progress.cpp
+D:\personal\Code\Xplorer_V3.0\Xplorer_s\progress.cpp(82) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+TreeView.cpp
+Xplorer_s.cpp
+Xplorer_sSock.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Xplorer_s.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: Xplorer_s - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Xplorer_s.res" /d "_DEBUG" "D:\personal\Code\Xplorer_V3.0\Xplorer_s\Xplorer_s.rc"" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP41.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Xplorer_s.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\progress.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\TreeView.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\Xplorer_s.cpp"
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\Xplorer_sSock.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP41.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP42.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Xplorer_s.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\Xplorer_s\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP42.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP43.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib shell32.lib wsock32.lib comctl32.lib Shell32.lib ole32.lib Ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Xplorer_s.pdb" /debug /machine:I386 /out:"..\Debug/Xplorer_s.exe" /pdbtype:sept 
+.\Debug\progress.obj
+.\Debug\StdAfx.obj
+.\Debug\TreeView.obj
+.\Debug\Xplorer_s.obj
+.\Debug\Xplorer_sSock.obj
+.\Debug\Xplorer_s.res
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP43.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+progress.cpp
+D:\personal\Code\Xplorer_V3.0\Xplorer_s\progress.cpp(82) : warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+TreeView.cpp
+Xplorer_s.cpp
+Xplorer_sSock.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Xplorer_s.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: kHookdll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "KHOOKDLL_EXPORTS" /Fp"Release/kHookdll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\kHookdll\kHookdll.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP45.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "KHOOKDLL_EXPORTS" /Fp"Release/kHookdll.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\personal\Code\Xplorer_V3.0\kHookdll\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP46.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP47.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"..\Debug/kHookdll.pdb" /machine:I386 /out:"..\release/kHookdll.dll" /implib:"Release/kHookdll.lib" 
+.\Release\kHookdll.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP47.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+kHookdll.cpp
+Linking...
+   Creating library Release/kHookdll.lib and object Release/kHookdll.exp
+
+
+
+<h3>Results</h3>
+kHookdll.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: kHookdll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "KHOOKDLL_EXPORTS" /FR"Debug/" /Fp"Debug/kHookdll.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\kHookdll\kHookdll.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP4B.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP4C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "KHOOKDLL_EXPORTS" /FR"Debug/" /Fp"Debug/kHookdll.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\personal\Code\Xplorer_V3.0\kHookdll\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP4C.tmp" 
+Creating temporary file "C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP4D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"..\Debug/kHookdll.pdb" /debug /machine:I386 /out:"..\Debug/kHookdll.dll" /implib:"Debug/kHookdll.lib" /pdbtype:sept 
+.\Debug\kHookdll.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\e3006094\LOCALS~1\Temp\RSP4D.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+kHookdll.cpp
+Linking...
+   Creating library Debug/kHookdll.lib and object Debug/kHookdll.exp
+
+
+
+<h3>Results</h3>
+kHookdll.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

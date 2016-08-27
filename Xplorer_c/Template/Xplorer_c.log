@@ -1,0 +1,34 @@
+﻿Build started 7/30/2016 4:38:35 PM.
+     1>Project "D:\personal\Code\Xplorer_V3.1\Xplorer_c\Xplorer_c.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Template\\" /Fd"Template\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CatchBitmap.cpp StdAfx.cpp Xplorer_c.cpp Xplorer_cSock.cpp
+         CatchBitmap.cpp
+         StdAfx.cpp
+         Xplorer_c.cpp
+         Xplorer_cSock.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Template\Xplorer_c.res" Xplorer_c.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\personal\Code\Xplorer_V3.1\Template\Xplorer_c.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\personal\Code\Xplorer_V3.1\Template\Xplorer_c.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\personal\Code\Xplorer_V3.1\Template\Xplorer_c.lib" /MACHINE:X86 /SAFESEH Template\Xplorer_c.res
+         Template\CatchBitmap.obj
+         Template\StdAfx.obj
+         Template\Xplorer_c.obj
+         Template\Xplorer_cSock.obj
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _closesocket@4 referenced in function "void __cdecl RecvThread(void *)" (?RecvThread@@YAXPAX@Z)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _connect@12 referenced in function "int __cdecl ConnectToServer(void)" (?ConnectToServer@@YAHXZ)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _htons@4 referenced in function "int __cdecl ConnectToServer(void)" (?ConnectToServer@@YAHXZ)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _inet_addr@4 referenced in function "int __cdecl ConnectToServer(void)" (?ConnectToServer@@YAHXZ)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _inet_ntoa@4 referenced in function "int __cdecl ConnectToServer(void)" (?ConnectToServer@@YAHXZ)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _recv@16 referenced in function "void __cdecl RecvThread(void *)" (?RecvThread@@YAXPAX@Z)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _send@16 referenced in function "int __cdecl SendDirectoryAndData(char const *,char const *,char *,unsigned int)" (?SendDirectoryAndData@@YAHPBD0PADI@Z)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _shutdown@8 referenced in function "void __cdecl RecvThread(void *)" (?RecvThread@@YAXPAX@Z)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _socket@12 referenced in function "int __cdecl ConnectToServer(void)" (?ConnectToServer@@YAHXZ)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _gethostbyname@4 referenced in function "int __cdecl ConnectToServer(void)" (?ConnectToServer@@YAHXZ)
+     1>Xplorer_cSock.obj : error LNK2019: unresolved external symbol _WSAStartup@8 referenced in function "int __cdecl InitSockLib(void)" (?InitSockLib@@YAHXZ)
+     1>D:\personal\Code\Xplorer_V3.1\Template\Xplorer_c.exe : fatal error LNK1120: 11 unresolved externals
+     1>Done Building Project "D:\personal\Code\Xplorer_V3.1\Xplorer_c\Xplorer_c.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.35
